@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>POST Method Demo</title>
+
+  <meta charset="UTF-8">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+  <div class="row">
+    <form method="POST" action="http://localhost:8888/process_post">
+      <div class="input-field col m12">
+        <input id="last_name" type="text" class="validate" name="firstname">
+        <label for="last_name">First Name</label>
+      </div>
+      <div class="input-field col m12">
+        <input id="last_name" type="text" class="validate" name="lastname">
+        <label for="last_name">Last Name</label>
+      </div>
+      <button class="btn waves-effect" type="submit">Sign In</button>
+    </form>
+  </div>
+</body>
+
+</html>
